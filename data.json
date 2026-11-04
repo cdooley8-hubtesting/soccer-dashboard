@@ -1,500 +1,537 @@
 {
- "updated": "2026-11-04T02:30:00Z",
- "headline": {
-  "kicker": "Top story · Champions League",
-  "title": "PSG 4–0 up inside 17 minutes, a new Champions League record, on the way to a 6–0 rout at Villarreal",
-  "sub": "Elsewhere, Man United came back from 2–0 down to beat Roma 3–2 at Old Trafford.",
-  "home": "VIL",
-  "score": "0–6",
-  "away": "PSG",
-  "url": "https://www.wsls.com/sports/2026/11/03/champions-league-man-united-hosts-roma-barcelona-against-aston-villa-atletico-madrid-vs-bayern/",
-  "source": "AP via WSLS"
- },
- "stat": {
-  "big": "17′",
-  "label": "PSG's record-fast four goals",
-  "context": "Paris led Villarreal 4–0 after 17 minutes, the quickest any team has scored four in Champions League history, and won 6–0."
- },
- "trivia": {
-  "date": "2026-11-04",
-  "question": "Real Madrid visit AEK Athens on Wednesday. Which club has won the European Cup / Champions League more times than any other?",
-  "options": [
-   "AC Milan",
-   "Real Madrid",
-   "Bayern Munich",
-   "Liverpool"
-  ],
-  "answer": 1,
-  "explain": "Real Madrid hold the record, starting with the first five editions in a row (1956–1960)."
- },
- "upcoming": {
-  "label": "Wed, Nov 4 · UCL Matchday 4",
-  "games": [
-   {
-    "id": "74165998",
-    "home": "Fenerbahçe",
-    "away": "Liverpool",
-    "kickoff": "2026-11-04T17:45:00Z",
-    "pH": 16.4,
-    "pD": 18.9,
-    "pA": 64.7
-   },
-   {
-    "id": "74165996",
-    "home": "AEK Athens",
-    "away": "Real Madrid",
-    "kickoff": "2026-11-04T17:45:00Z",
-    "pH": 8.4,
-    "pD": 12.5,
-    "pA": 79.1
-   },
-   {
-    "id": "74166006",
-    "home": "RB Leipzig",
-    "away": "Man City",
-    "kickoff": "2026-11-04T20:00:00Z",
-    "pH": 18.8,
-    "pD": 19.1,
-    "pA": 62.1
-   },
-   {
-    "id": "74166010",
-    "home": "Slavia Prague",
-    "away": "Arsenal",
-    "kickoff": "2026-11-04T20:00:00Z",
-    "pH": 8,
-    "pD": 14.1,
-    "pA": 77.9
-   },
-   {
-    "id": "74166000",
-    "home": "Dortmund",
-    "away": "Real Betis",
-    "kickoff": "2026-11-04T20:00:00Z",
-    "pH": 55,
-    "pD": 22.6,
-    "pA": 22.4
-   },
-   {
-    "id": "74166002",
-    "home": "Porto",
-    "away": "Napoli",
-    "kickoff": "2026-11-04T20:00:00Z",
-    "pH": 48.6,
-    "pD": 25.5,
-    "pA": 25.9
-   }
-  ]
- },
- "upsets": [],
- "watchlist": [
-  "Lionel Messi",
-  "Cristiano Ronaldo (the embarrassing stuff)",
-  "Nashville SC"
- ],
- "feed": {
-  "updatedAt": "",
-  "items": []
- },
- "results": {
-  "label": "Tue, Nov 3 · UCL Matchday 4",
-  "games": [
-   {
+  "feed": {
+    "items": [
+      {
+        "date": "2026-11-01",
+        "source": "ABC News (AP)",
+        "summary": "He set up Berterame's 69th-minute equaliser and scored an 83rd-minute winner in a 2–1 comeback at New England, his league-leading 26th goal. Miami host Charlotte on Saturday.",
+        "title": "Messi goal and assist lift Miami to second in the East",
+        "topic": "Lionel Messi",
+        "url": "https://abcnews.com/Sports/wireStory/lionel-messi-goal-assist-rally-inter-miami-2-137760952"
+      },
+      {
+        "date": "2026-11-02",
+        "source": "Yahoo Sports",
+        "summary": "Postecoglou cited fixture load and travel for leaving him out of the trip to Tashkent; João Félix scored twice in a 6–2 ACL Elite win over Pakhtakor.",
+        "title": "Al Nassr leave Ronaldo at home, then score six without him",
+        "topic": "Cristiano Ronaldo (the embarrassing stuff)",
+        "url": "https://sports.yahoo.com/articles/postecoglou-leaves-ronaldo-home-al-165827640.html"
+      },
+      {
+        "date": "2026-11-01",
+        "source": "FOX 17",
+        "summary": "Two Red Bulls own goals and Sam Surridge's late 19th of the season made it 3–2. Nashville reach 74 points with one game left and went unbeaten at home (15-0-2).",
+        "title": "Stoppage-time winner ties MLS points record",
+        "topic": "Nashville SC",
+        "url": "https://fox17.com/sports/content/nashville-ends-red-bulls-playoff-hopes-with-3-2-victory"
+      }
+    ],
+    "updatedAt": "2026-11-04T12:23:18Z"
+  },
+  "headline": {
+    "away": "PSG",
     "home": "Villarreal",
+    "kicker": "Top story · Champions League",
     "score": "0–6",
-    "away": "PSG"
-   },
-   {
-    "home": "Man United",
-    "score": "3–2",
-    "away": "Roma"
-   },
-   {
-    "home": "Barcelona",
-    "score": "3–0",
-    "away": "Aston Villa"
-   },
-   {
-    "home": "Atlético Madrid",
-    "score": "0–2",
-    "away": "Bayern"
-   },
-   {
-    "home": "Feyenoord",
-    "score": "0–3",
-    "away": "Inter"
-   },
-   {
-    "home": "Galatasaray",
-    "score": "2–0",
-    "away": "Stuttgart"
-   },
-   {
-    "home": "Shakhtar",
-    "score": "0–1",
-    "away": "Sporting CP"
-   },
-   {
-    "home": "LASK",
-    "score": "4–0",
-    "away": "Slovan Bratislava"
-   },
-   {
-    "home": "Bodø/Glimt",
-    "score": "0–0",
-    "away": "Lille"
-   }
-  ]
- },
- "rumors": [
-  {
-   "tag": "Exit",
-   "title": "Zubimendi ready to leave Arsenal",
-   "body": "Two league starts all season; seven big clubs, including Real Madrid, Chelsea and Liverpool, told he could be available.",
-   "src": "Premier League News Now (citing TEAMtalk)",
-   "url": "https://premierleaguenewsnow.com/2026/11/03/martin-zubimendi-arsenal-january-exit-real-madrid/"
+    "source": "ESPN",
+    "sub": "Elsewhere, Man United came back from 2–0 down to beat Roma 3–2 at Old Trafford.",
+    "title": "PSG 4–0 up inside 17 minutes, a new Champions League record, on the way to a 6–0 rout at Villarreal",
+    "url": "https://www.espn.com/soccer/story/_/id/50371706/psg-villarreal-champions-league-record-goals"
   },
-  {
-   "tag": "Bid",
-   "title": "Liverpool eye Lamine Camara",
-   "body": "An offer of €50m+ for the Monaco midfielder is being prepared. Nothing agreed yet.",
-   "src": "Africa Soccer",
-   "url": "https://africasoccer.com/liverpool-prepare-e50m-bid-for-lamine-camara-as-january-transfer-move-takes-shape/"
-  },
-  {
-   "tag": "Target",
-   "title": "Chelsea want Alex Scott",
-   "body": "Bournemouth midfielder named the main January target, but he is nursing a hamstring injury.",
-   "src": "Premier League News Now",
-   "url": "https://premierleaguenewsnow.com/2026/11/03/alex-scott-chelsea-poyet-january-midfield/"
-  },
-  {
-   "tag": "Exit",
-   "title": "Balde accepts he must leave Barça",
-   "body": "Man United expected to revive interest as they look for a left-back.",
-   "src": "Sports Mole (citing Mundo Deportivo)",
-   "url": "https://www.sportsmole.co.uk/football/man-utd/transfer-talk/news/man-utd-handed-major-january-boost-as-top-target-accepts-mid-season-move_608321.html"
-  }
- ],
- "news": [
-  {
-   "title": "Man United comeback",
-   "body": "From 2–0 down after 17 minutes to a 3–2 win over Roma, after the worst start to a European home game in club history.",
-   "url": "https://www.wsls.com/sports/2026/11/03/champions-league-man-united-hosts-roma-barcelona-against-aston-villa-atletico-madrid-vs-bayern/",
-   "source": "AP via WSLS"
-  },
-  {
-   "title": "Teenager Karl leads Bayern",
-   "body": "Bayern stay unbeaten in the league phase with a 2–0 win in Madrid.",
-   "url": "https://www.espn.com/soccer/scoreboard/_/league/uefa.champions",
-   "source": "ESPN"
-  },
-  {
-   "title": "Batrakov double",
-   "body": "Two goals in three minutes (12′, 15′) for Galatasaray against Stuttgart.",
-   "url": "https://www.espn.com/soccer/scoreboard/_/league/uefa.champions",
-   "source": "ESPN"
-  },
-  {
-   "title": "England squad on Friday",
-   "body": "Tuchel names his November squad; Alex Scott's fitness is the question mark.",
-   "url": "https://premierleaguenewsnow.com/2026/11/03/alex-scott-chelsea-poyet-january-midfield/",
-   "source": "Premier League News Now"
-  }
- ],
- "table": {
-  "rows": [
-   {
-    "rank": 1,
-    "team": "Arsenal",
-    "rec": "8-0-1",
-    "pts": 24
-   },
-   {
-    "rank": 2,
-    "team": "Man City",
-    "rec": "7-0-2",
-    "pts": 21
-   },
-   {
-    "rank": 3,
-    "team": "Brighton",
-    "rec": "6-1-2",
-    "pts": 19
-   },
-   {
-    "rank": 4,
-    "team": "Chelsea",
-    "rec": "5-1-3",
-    "pts": 16
-   },
-   {
-    "rank": 5,
-    "team": "Liverpool",
-    "rec": "4-3-2",
-    "pts": 15
-   },
-   {
-    "rank": 6,
-    "team": "Brentford",
-    "rec": "3-5-1",
-    "pts": 14
-   }
+  "news": [
+    {
+      "body": "Muriqi's 89th-minute winner ended Liverpool's perfect UCL start after they led twice; in Athens, Valverde struck in stoppage time as Real Madrid beat AEK 3–2.",
+      "source": "AP (via WHIO)",
+      "title": "Fenerbahçe stun Liverpool, Madrid come back again",
+      "url": "https://www.whio.com/sports/champions-league/FWE2BKI6R45NJB3WGYJ3WWMIQ4/"
+    },
+    {
+      "body": "Roma led 2–0 at half-time against a United side nine games without a win; Fernandes's retaken penalty and two late Cunha goals flipped it to 3–2, though Cunha was sent off in stoppage time.",
+      "source": "UEFA.com",
+      "title": "Man United comeback",
+      "url": "https://www.uefa.com/uefachampionsleague/news/02ab-21fc4afdbe57-11bbecf54b40-1000--champions-league-highlights-and-round-up-paris-remain-per/"
+    },
+    {
+      "body": "Lennart Karl forced a turnover and scored early in the second half, Laimer added a second from Kane's pass, and Bayern won 2–0 at Atlético after two straight draws.",
+      "source": "UEFA.com",
+      "title": "Teenager Karl leads Bayern",
+      "url": "https://www.uefa.com/uefachampionsleague/news/02ab-21fc4afdbe57-11bbecf54b40-1000--champions-league-highlights-and-round-up-paris-remain-per/"
+    },
+    {
+      "body": "A stoppage-time Sam Surridge winner beat the Red Bulls 3–2, taking the Supporters' Shield winners to 74 points (level with Miami's 2024 record) with a game to spare.",
+      "source": "FOX 17",
+      "title": "Nashville tie the MLS points record",
+      "url": "https://fox17.com/sports/content/nashville-ends-red-bulls-playoff-hopes-with-3-2-victory"
+    }
   ],
-  "note": "Record shown W-D-L. Man United sit 17th on 7 points."
- },
- "tables": {
-  "epl": {
-   "name": "Premier League",
-   "rows": [
-    {
-     "rank": 1,
-     "team": "Arsenal",
-     "rec": "8-0-1",
-     "pts": 24
-    },
-    {
-     "rank": 2,
-     "team": "Man City",
-     "rec": "7-0-2",
-     "pts": 21
-    },
-    {
-     "rank": 3,
-     "team": "Brighton",
-     "rec": "6-1-2",
-     "pts": 19
-    },
-    {
-     "rank": 4,
-     "team": "Chelsea",
-     "rec": "5-1-3",
-     "pts": 16
-    },
-    {
-     "rank": 5,
-     "team": "Liverpool",
-     "rec": "4-3-2",
-     "pts": 15
-    },
-    {
-     "rank": 6,
-     "team": "Brentford",
-     "rec": "3-5-1",
-     "pts": 14
-    },
-    {
-     "rank": 7,
-     "team": "Everton",
-     "rec": "3-4-2",
-     "pts": 13
-    },
-    {
-     "rank": 8,
-     "team": "Bournemouth",
-     "rec": "3-3-3",
-     "pts": 12
-    },
-    {
-     "rank": 9,
-     "team": "Tottenham",
-     "rec": "3-3-3",
-     "pts": 12
-    },
-    {
-     "rank": 10,
-     "team": "Aston Villa",
-     "rec": "3-3-3",
-     "pts": 12
-    },
-    {
-     "rank": 11,
-     "team": "Hull City",
-     "rec": "2-5-2",
-     "pts": 11
-    },
-    {
-     "rank": 12,
-     "team": "Leeds United",
-     "rec": "2-5-2",
-     "pts": 11
-    },
-    {
-     "rank": 13,
-     "team": "Newcastle",
-     "rec": "3-2-4",
-     "pts": 11
-    },
-    {
-     "rank": 14,
-     "team": "Ipswich Town",
-     "rec": "3-2-4",
-     "pts": 11
-    },
-    {
-     "rank": 15,
-     "team": "Fulham",
-     "rec": "2-3-4",
-     "pts": 9
-    },
-    {
-     "rank": 16,
-     "team": "Coventry City",
-     "rec": "3-0-6",
-     "pts": 9
-    },
-    {
-     "rank": 17,
-     "team": "Man United",
-     "rec": "1-4-4",
-     "pts": 7
-    },
-    {
-     "rank": 18,
-     "team": "Crystal Palace",
-     "rec": "2-1-6",
-     "pts": 7
-    },
-    {
-     "rank": 19,
-     "team": "Nottingham Forest",
-     "rec": "1-3-5",
-     "pts": 6
-    },
-    {
-     "rank": 20,
-     "team": "Sunderland",
-     "rec": "1-2-6",
-     "pts": 5
-    }
-   ],
-   "note": "Record shown W-D-L. Man United sit 17th on 7 points."
+  "results": {
+    "games": [
+      {
+        "away": "PSG",
+        "home": "Villarreal",
+        "score": "0–6"
+      },
+      {
+        "away": "Roma",
+        "home": "Man United",
+        "score": "3–2"
+      },
+      {
+        "away": "Aston Villa",
+        "home": "Barcelona",
+        "score": "3–0"
+      },
+      {
+        "away": "Bayern",
+        "home": "Atlético Madrid",
+        "score": "0–2"
+      },
+      {
+        "away": "Inter",
+        "home": "Feyenoord",
+        "score": "0–3"
+      },
+      {
+        "away": "Stuttgart",
+        "home": "Galatasaray",
+        "score": "2–0"
+      },
+      {
+        "away": "Sporting CP",
+        "home": "Shakhtar",
+        "score": "0–1"
+      },
+      {
+        "away": "Slovan Bratislava",
+        "home": "LASK",
+        "score": "4–0"
+      },
+      {
+        "away": "Lille",
+        "home": "Bodø/Glimt",
+        "score": "0–0"
+      }
+    ],
+    "label": "Tue, Nov 3 · Yesterday's results"
   },
-  "laliga": {
-   "name": "La Liga",
-   "rows": [
+  "rumors": [
     {
-     "rank": 1,
-     "team": "Barcelona",
-     "rec": "10-0-1",
-     "pts": 30
+      "body": "Two starts all season, both in the EFL Cup; seven big clubs including Real Madrid, Chelsea and Liverpool reportedly know he could go in January, possibly on loan.",
+      "src": "Premier League News Now (via TEAMtalk)",
+      "tag": "Exit",
+      "title": "Zubimendi ready to leave Arsenal",
+      "url": "https://premierleaguenewsnow.com/2026/11/03/martin-zubimendi-arsenal-january-exit-real-madrid/"
     },
     {
-     "rank": 2,
-     "team": "Atlético Madrid",
-     "rec": "9-1-1",
-     "pts": 28
+      "body": "Bournemouth's 20-year-old forward is seen as a priority for more attacking depth, but the Cherries don't want to sell mid-season. PSG and Bayern are also watching.",
+      "src": "Football Whispers",
+      "tag": "Target",
+      "title": "Arsenal eye Kroupi in January",
+      "url": "https://footballwhispers.com/blog/latest-transfer-news-today-inside-man-utds-dortmund-scouting-trip-as-arsenal-plot-january-striker-move/"
     },
     {
-     "rank": 3,
-     "team": "Real Madrid",
-     "rec": "9-0-2",
-     "pts": 27
+      "body": "Scouts at Dortmund v Bayern watched Guirassy, Jobe Bellingham, Nmecha and left-back Svensson. Big fees make any deal tricky.",
+      "src": "Football Whispers",
+      "tag": "Scouting",
+      "title": "Man United scout Dortmund quartet",
+      "url": "https://footballwhispers.com/blog/latest-transfer-news-today-inside-man-utds-dortmund-scouting-trip-as-arsenal-plot-january-striker-move/"
     },
     {
-     "rank": 4,
-     "team": "Real Betis",
-     "rec": "7-2-2",
-     "pts": 23
+      "body": "Despite Barcelona and Man United interest, Chelsea are reportedly lining up a new deal with a big pay rise after his strong display against United.",
+      "src": "CaughtOffside",
+      "tag": "Stay",
+      "title": "Chelsea won't sell Estêvão",
+      "url": "https://www.caughtoffside.com/2026/11/03/chelsea-prepare-new-deal-for-rising-star-transfer-speculation/"
     },
     {
-     "rank": 5,
-     "team": "Real Sociedad",
-     "rec": "6-1-4",
-     "pts": 19
-    },
-    {
-     "rank": 6,
-     "team": "Sevilla",
-     "rec": "5-2-4",
-     "pts": 17
-    },
-    {
-     "rank": 7,
-     "team": "Athletic Club",
-     "rec": "4-3-3",
-     "pts": 15
-    },
-    {
-     "rank": 8,
-     "team": "Deportivo La Coruña",
-     "rec": "3-5-3",
-     "pts": 14
-    },
-    {
-     "rank": 9,
-     "team": "Villarreal",
-     "rec": "3-3-5",
-     "pts": 12
-    },
-    {
-     "rank": 10,
-     "team": "Celta Vigo",
-     "rec": "2-6-3",
-     "pts": 12
-    },
-    {
-     "rank": 11,
-     "team": "Alavés",
-     "rec": "3-3-5",
-     "pts": 12
-    },
-    {
-     "rank": 12,
-     "team": "Rayo Vallecano",
-     "rec": "3-3-4",
-     "pts": 12
-    },
-    {
-     "rank": 13,
-     "team": "Getafe",
-     "rec": "3-3-5",
-     "pts": 12
-    },
-    {
-     "rank": 14,
-     "team": "Espanyol",
-     "rec": "3-2-6",
-     "pts": 11
-    },
-    {
-     "rank": 15,
-     "team": "Osasuna",
-     "rec": "3-2-6",
-     "pts": 11
-    },
-    {
-     "rank": 16,
-     "team": "Racing Santander",
-     "rec": "3-2-6",
-     "pts": 11
-    },
-    {
-     "rank": 17,
-     "team": "Elche",
-     "rec": "2-4-5",
-     "pts": 10
-    },
-    {
-     "rank": 18,
-     "team": "Levante",
-     "rec": "2-4-5",
-     "pts": 10
-    },
-    {
-     "rank": 19,
-     "team": "Valencia",
-     "rec": "2-3-6",
-     "pts": 9
-    },
-    {
-     "rank": 20,
-     "team": "Málaga",
-     "rec": "0-5-6",
-     "pts": 5
+      "body": "Early enquiries only: Serie A leaders Lazio don't plan to sell the midfielder mid-season, and bids may come in the summer.",
+      "src": "Premier League News Now (via Tuttomercatoweb)",
+      "tag": "Enquiry",
+      "title": "Brighton and Bournemouth ask about Kenneth Taylor",
+      "url": "https://premierleaguenewsnow.com/2026/11/03/kenneth-taylor-brighton-bournemouth-lazio-transfer/"
     }
-   ],
-   "note": "Record shown W-D-L. Barcelona lead Atlético by two points."
-  }
- }
+  ],
+  "stat": {
+    "big": "17′",
+    "context": "Paris led Villarreal 4–0 after 17 minutes, the quickest any team has scored four in Champions League history, and won 6–0.",
+    "label": "PSG's record-fast four goals"
+  },
+  "table": {
+    "note": "Record shown W-D-L. Man United sit 17th on 7 points.",
+    "rows": [
+      {
+        "pts": 24,
+        "rank": 1,
+        "rec": "8-0-1",
+        "team": "Arsenal"
+      },
+      {
+        "pts": 21,
+        "rank": 2,
+        "rec": "7-0-2",
+        "team": "Man City"
+      },
+      {
+        "pts": 19,
+        "rank": 3,
+        "rec": "6-1-2",
+        "team": "Brighton"
+      },
+      {
+        "pts": 16,
+        "rank": 4,
+        "rec": "5-1-3",
+        "team": "Chelsea"
+      },
+      {
+        "pts": 15,
+        "rank": 5,
+        "rec": "4-3-2",
+        "team": "Liverpool"
+      },
+      {
+        "pts": 14,
+        "rank": 6,
+        "rec": "3-5-1",
+        "team": "Brentford"
+      }
+    ]
+  },
+  "trivia": {
+    "answer": 1,
+    "date": "2026-11-04",
+    "explain": "Real Madrid hold the record, starting with the first five editions in a row (1956–1960).",
+    "options": [
+      "AC Milan",
+      "Real Madrid",
+      "Bayern Munich",
+      "Liverpool"
+    ],
+    "question": "Real Madrid visit AEK Athens on Wednesday. Which club has won the European Cup / Champions League more times than any other?"
+  },
+  "upcoming": {
+    "games": [
+      {
+        "away": "Liverpool",
+        "home": "Fenerbahçe",
+        "id": "74165998",
+        "kickoff": "2026-11-04T17:45:00Z",
+        "pA": 64.7,
+        "pD": 18.9,
+        "pH": 16.4
+      },
+      {
+        "away": "Real Madrid",
+        "home": "AEK Athens",
+        "id": "74165996",
+        "kickoff": "2026-11-04T17:45:00Z",
+        "pA": 79.1,
+        "pD": 12.5,
+        "pH": 8.4
+      },
+      {
+        "away": "Man City",
+        "home": "RB Leipzig",
+        "id": "74166006",
+        "kickoff": "2026-11-04T20:00:00Z",
+        "pA": 62.1,
+        "pD": 19.1,
+        "pH": 18.8
+      },
+      {
+        "away": "Arsenal",
+        "home": "Slavia Prague",
+        "id": "74166010",
+        "kickoff": "2026-11-04T20:00:00Z",
+        "pA": 77.9,
+        "pD": 14.1,
+        "pH": 8
+      },
+      {
+        "away": "Real Betis",
+        "home": "Dortmund",
+        "id": "74166000",
+        "kickoff": "2026-11-04T20:00:00Z",
+        "pA": 22.4,
+        "pD": 22.6,
+        "pH": 55
+      },
+      {
+        "away": "Napoli",
+        "home": "Porto",
+        "id": "74166002",
+        "kickoff": "2026-11-04T20:00:00Z",
+        "pA": 25.9,
+        "pD": 25.5,
+        "pH": 48.6
+      }
+    ],
+    "label": "Wed, Nov 4 · UCL Matchday 4"
+  },
+  "updated": "2026-11-04T22:28:39Z",
+  "upsets": [
+    {
+      "detail": "Liverpool were 65% favorites",
+      "text": "Fenerbahçe 3–2 Liverpool"
+    }
+  ],
+  "tables": {
+    "epl": {
+      "name": "Premier League",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "Arsenal",
+          "rec": "8-0-1",
+          "pts": 24
+        },
+        {
+          "rank": 2,
+          "team": "Man City",
+          "rec": "7-0-2",
+          "pts": 21
+        },
+        {
+          "rank": 3,
+          "team": "Brighton",
+          "rec": "6-1-2",
+          "pts": 19
+        },
+        {
+          "rank": 4,
+          "team": "Chelsea",
+          "rec": "5-1-3",
+          "pts": 16
+        },
+        {
+          "rank": 5,
+          "team": "Liverpool",
+          "rec": "4-3-2",
+          "pts": 15
+        },
+        {
+          "rank": 6,
+          "team": "Brentford",
+          "rec": "3-5-1",
+          "pts": 14
+        },
+        {
+          "rank": 7,
+          "team": "Everton",
+          "rec": "3-4-2",
+          "pts": 13
+        },
+        {
+          "rank": 8,
+          "team": "Bournemouth",
+          "rec": "3-3-3",
+          "pts": 12
+        },
+        {
+          "rank": 9,
+          "team": "Tottenham",
+          "rec": "3-3-3",
+          "pts": 12
+        },
+        {
+          "rank": 10,
+          "team": "Aston Villa",
+          "rec": "3-3-3",
+          "pts": 12
+        },
+        {
+          "rank": 11,
+          "team": "Hull City",
+          "rec": "2-5-2",
+          "pts": 11
+        },
+        {
+          "rank": 12,
+          "team": "Leeds United",
+          "rec": "2-5-2",
+          "pts": 11
+        },
+        {
+          "rank": 13,
+          "team": "Newcastle",
+          "rec": "3-2-4",
+          "pts": 11
+        },
+        {
+          "rank": 14,
+          "team": "Ipswich Town",
+          "rec": "3-2-4",
+          "pts": 11
+        },
+        {
+          "rank": 15,
+          "team": "Fulham",
+          "rec": "2-3-4",
+          "pts": 9
+        },
+        {
+          "rank": 16,
+          "team": "Coventry City",
+          "rec": "3-0-6",
+          "pts": 9
+        },
+        {
+          "rank": 17,
+          "team": "Man United",
+          "rec": "1-4-4",
+          "pts": 7
+        },
+        {
+          "rank": 18,
+          "team": "Crystal Palace",
+          "rec": "2-1-6",
+          "pts": 7
+        },
+        {
+          "rank": 19,
+          "team": "Nottingham Forest",
+          "rec": "1-3-5",
+          "pts": 6
+        },
+        {
+          "rank": 20,
+          "team": "Sunderland",
+          "rec": "1-2-6",
+          "pts": 5
+        }
+      ],
+      "note": "Record shown W-D-L. Man United sit 17th on 7 points."
+    },
+    "laliga": {
+      "name": "La Liga",
+      "rows": [
+        {
+          "rank": 1,
+          "team": "Barcelona",
+          "rec": "10-0-1",
+          "pts": 30
+        },
+        {
+          "rank": 2,
+          "team": "Atlético Madrid",
+          "rec": "9-1-1",
+          "pts": 28
+        },
+        {
+          "rank": 3,
+          "team": "Real Madrid",
+          "rec": "9-0-2",
+          "pts": 27
+        },
+        {
+          "rank": 4,
+          "team": "Real Betis",
+          "rec": "7-2-2",
+          "pts": 23
+        },
+        {
+          "rank": 5,
+          "team": "Real Sociedad",
+          "rec": "6-1-4",
+          "pts": 19
+        },
+        {
+          "rank": 6,
+          "team": "Sevilla",
+          "rec": "5-2-4",
+          "pts": 17
+        },
+        {
+          "rank": 7,
+          "team": "Athletic Club",
+          "rec": "4-3-3",
+          "pts": 15
+        },
+        {
+          "rank": 8,
+          "team": "Deportivo La Coruña",
+          "rec": "3-5-3",
+          "pts": 14
+        },
+        {
+          "rank": 9,
+          "team": "Villarreal",
+          "rec": "3-3-5",
+          "pts": 12
+        },
+        {
+          "rank": 10,
+          "team": "Celta Vigo",
+          "rec": "2-6-3",
+          "pts": 12
+        },
+        {
+          "rank": 11,
+          "team": "Alavés",
+          "rec": "3-3-5",
+          "pts": 12
+        },
+        {
+          "rank": 12,
+          "team": "Rayo Vallecano",
+          "rec": "3-3-4",
+          "pts": 12
+        },
+        {
+          "rank": 13,
+          "team": "Getafe",
+          "rec": "3-3-5",
+          "pts": 12
+        },
+        {
+          "rank": 14,
+          "team": "Espanyol",
+          "rec": "3-2-6",
+          "pts": 11
+        },
+        {
+          "rank": 15,
+          "team": "Osasuna",
+          "rec": "3-2-6",
+          "pts": 11
+        },
+        {
+          "rank": 16,
+          "team": "Racing Santander",
+          "rec": "3-2-6",
+          "pts": 11
+        },
+        {
+          "rank": 17,
+          "team": "Elche",
+          "rec": "2-4-5",
+          "pts": 10
+        },
+        {
+          "rank": 18,
+          "team": "Levante",
+          "rec": "2-4-5",
+          "pts": 10
+        },
+        {
+          "rank": 19,
+          "team": "Valencia",
+          "rec": "2-3-6",
+          "pts": 9
+        },
+        {
+          "rank": 20,
+          "team": "Málaga",
+          "rec": "0-5-6",
+          "pts": 5
+        }
+      ],
+      "note": "Record shown W-D-L. Barcelona lead Atlético by two points."
+    }
+  },
+  "watchlist": [
+    "Lionel Messi",
+    "Cristiano Ronaldo (the embarrassing stuff)",
+    "Nashville SC"
+  ]
 }
