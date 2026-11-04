@@ -1,0 +1,48 @@
+{
+  "updated": "2026-11-04T02:30:00Z",
+  "headline": {"kicker": "Top story · Champions League", "title": "PSG 4–0 up inside 17 minutes, a new Champions League record, on the way to a 6–0 rout at Villarreal", "sub": "Elsewhere, Man United came back from 2–0 down to beat Roma 3–2 at Old Trafford.", "home": "VIL", "score": "0–6", "away": "PSG"},
+  "stat": {"big": "17′", "label": "PSG's record-fast four goals", "context": "Paris led Villarreal 4–0 after 17 minutes, the quickest any team has scored four in Champions League history, and won 6–0."},
+  "trivia": {"date": "2026-11-04", "question": "Real Madrid visit AEK Athens on Wednesday. Which club has won the European Cup / Champions League more times than any other?", "options": ["AC Milan", "Real Madrid", "Bayern Munich", "Liverpool"], "answer": 1, "explain": "Real Madrid hold the record, starting with the first five editions in a row (1956–1960)."},
+  "upcoming": {"label": "Wed, Nov 4 · UCL Matchday 4", "games": [
+    {"id": "74165998", "home": "Fenerbahçe", "away": "Liverpool", "kickoff": "2026-11-04T17:45:00Z", "pH": 16.4, "pD": 18.9, "pA": 64.7},
+    {"id": "74165996", "home": "AEK Athens", "away": "Real Madrid", "kickoff": "2026-11-04T17:45:00Z", "pH": 8.4, "pD": 12.5, "pA": 79.1},
+    {"id": "74166006", "home": "RB Leipzig", "away": "Man City", "kickoff": "2026-11-04T20:00:00Z", "pH": 18.8, "pD": 19.1, "pA": 62.1},
+    {"id": "74166010", "home": "Slavia Prague", "away": "Arsenal", "kickoff": "2026-11-04T20:00:00Z", "pH": 8, "pD": 14.1, "pA": 77.9},
+    {"id": "74166000", "home": "Dortmund", "away": "Real Betis", "kickoff": "2026-11-04T20:00:00Z", "pH": 55, "pD": 22.6, "pA": 22.4},
+    {"id": "74166002", "home": "Porto", "away": "Napoli", "kickoff": "2026-11-04T20:00:00Z", "pH": 48.6, "pD": 25.5, "pA": 25.9}
+  ]},
+  "upsets": [],
+  "watchlist": ["Lionel Messi", "Cristiano Ronaldo (the embarrassing stuff)", "Nashville SC"],
+  "feed": {"updatedAt": "", "items": []},
+  "results": {"label": "Tue, Nov 3 · UCL Matchday 4", "games": [
+    {"home": "Villarreal", "score": "0–6", "away": "PSG"},
+    {"home": "Man United", "score": "3–2", "away": "Roma"},
+    {"home": "Barcelona", "score": "3–0", "away": "Aston Villa"},
+    {"home": "Atlético Madrid", "score": "0–2", "away": "Bayern"},
+    {"home": "Feyenoord", "score": "0–3", "away": "Inter"},
+    {"home": "Galatasaray", "score": "2–0", "away": "Stuttgart"},
+    {"home": "Shakhtar", "score": "0–1", "away": "Sporting CP"},
+    {"home": "LASK", "score": "4–0", "away": "Slovan Bratislava"},
+    {"home": "Bodø/Glimt", "score": "0–0", "away": "Lille"}
+  ]},
+  "rumors": [
+    {"tag": "Exit", "title": "Zubimendi ready to leave Arsenal", "body": "Two league starts all season; seven big clubs, including Real Madrid, Chelsea and Liverpool, told he could be available.", "src": "TEAMtalk"},
+    {"tag": "Bid", "title": "Liverpool eye Lamine Camara", "body": "An offer of €50m+ for the Monaco midfielder is being prepared. Nothing agreed yet.", "src": "Reports, Nov 3"},
+    {"tag": "Target", "title": "Chelsea want Alex Scott", "body": "Bournemouth midfielder named the main January target, but he is nursing a hamstring injury.", "src": "Reports, Nov 3"},
+    {"tag": "Exit", "title": "Balde accepts he must leave Barça", "body": "Man United expected to revive interest as they look for a left-back.", "src": "Mundo Deportivo"}
+  ],
+  "news": [
+    {"title": "Man United comeback", "body": "From 2–0 down after 17 minutes to a 3–2 win over Roma, after the worst start to a European home game in club history."},
+    {"title": "Teenager Karl leads Bayern", "body": "Bayern stay unbeaten in the league phase with a 2–0 win in Madrid."},
+    {"title": "Batrakov double", "body": "Two goals in three minutes (12′, 15′) for Galatasaray against Stuttgart."},
+    {"title": "England squad on Friday", "body": "Tuchel names his November squad; Alex Scott's fitness is the question mark."}
+  ],
+  "table": {"rows": [
+    {"rank": 1, "team": "Arsenal", "rec": "8-0-1", "pts": 24},
+    {"rank": 2, "team": "Man City", "rec": "7-0-2", "pts": 21},
+    {"rank": 3, "team": "Brighton", "rec": "6-1-2", "pts": 19},
+    {"rank": 4, "team": "Chelsea", "rec": "5-1-3", "pts": 16},
+    {"rank": 5, "team": "Liverpool", "rec": "4-3-2", "pts": 15},
+    {"rank": 6, "team": "Brentford", "rec": "3-5-1", "pts": 14}
+  ], "note": "Record shown W-D-L. Man United sit 17th on 7 points."}
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Football Today</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#15181A;--muted:#4A5257;--soft:#3A4246;--line:#EEF0EC;--card:#FFFFFF;--bg:#F4F5F2;--green:#17663F;--green-d:#0E4529;--mint:#E3F2E9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 Inter,system-ui,sans-serif}
+a{color:var(--green);font-weight:600}a:hover{color:var(--green-d)}
+.wrap{max-width:1360px;margin:0 auto;padding:28px 20px 48px;display:flex;flex-direction:column;gap:24px}
+.disp{font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;border-bottom:3px solid var(--ink);padding-bottom:16px}
+header h1{margin:0;font-size:clamp(40px,6vw,56px);line-height:1}
+.eyebrow{margin:0;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--green)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,400px),1fr));gap:24px;align-items:start}
+.card{background:var(--card);border:1px solid #DDE1DC;border-radius:12px;padding:20px 22px;display:flex;flex-direction:column;gap:12px}
+.card h2{margin:0;font-size:26px}
+.head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px}
+.sub{font-size:13px;color:var(--muted)}
+.row{padding:10px 0;border-top:1px solid var(--line)}
+.hero{background:var(--ink);color:#fff;border-radius:12px;padding:24px 28px;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between}
+.hero h2{margin:0;font-family:'Barlow Condensed',sans-serif;font-size:34px;line-height:1.05}
+.hero p{margin:0;color:#C9D0D4}
+.hero .score{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:64px;line-height:1;color:#8FD9AE}
+.stat{background:var(--green);color:#fff;border-radius:12px;padding:22px 26px;display:flex;flex-direction:column;gap:8px}
+.stat .big{margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:96px;line-height:.95}
+.btn{min-height:44px;padding:8px 12px;border-radius:8px;font:inherit;font-weight:600;cursor:pointer;background:var(--bg);color:var(--ink);border:1px solid #D5DAD4;text-align:center}
+.btn[aria-pressed="true"],.btn.right{background:var(--green);color:#fff;border-color:var(--green)}
+.btn.wrong{background:#FDE8E5;color:#7A1610;border-color:#B42318}
+.btn:disabled{cursor:default}
+.btn:focus-visible,input:focus-visible{outline:3px solid #8FD9AE;outline-offset:2px}
+.pill{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;padding:2px 8px;border-radius:999px;align-self:flex-start}
+.pill.amber{background:#FCE3C4;color:#6B3A00}.pill.mint{background:var(--mint);color:var(--green-d)}
+.res{display:grid;grid-template-columns:minmax(0,1fr) 64px minmax(0,1fr);gap:8px;align-items:center}
+.res .sc{text-align:center;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:22px;background:var(--bg);border-radius:6px}
+.tbl{display:grid;grid-template-columns:28px minmax(0,1fr) 72px 40px;gap:8px;align-items:center}
+.upset{background:#FFF1EE;border:2px solid #B42318;border-radius:12px;padding:18px 22px;display:flex;flex-direction:column;gap:10px}
+.stamp{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;letter-spacing:.08em;color:#fff;background:#B42318;padding:2px 12px;border-radius:4px;transform:rotate(-3deg);display:inline-block}
+.watch{border:2px solid var(--green)}
+form{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end}
+label{font-size:13px;font-weight:600}
+input[type=text]{height:44px;padding:0 14px;border:1px solid #B8C0BA;border-radius:8px;font:inherit;background:#FAFBF9;width:100%}
+.add{height:44px;padding:0 20px;border:0;border-radius:8px;background:var(--green);color:#fff;font:inherit;font-weight:600;cursor:pointer}
+.chips{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.chips li{display:flex;align-items:center;gap:4px;background:var(--mint);color:var(--green-d);border-radius:999px;padding:4px 4px 4px 14px;font-weight:500}
+.chips button{width:32px;height:32px;border:0;border-radius:50%;background:transparent;color:inherit;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.feed{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:14px}
+.story{background:#F7F8F6;border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:6px}
+.story h3{margin:0;font-size:16px;line-height:1.3}
+.rec{display:flex;flex-wrap:wrap;gap:8px}
+.rec div{flex:1 1 140px;border-radius:8px;padding:8px 12px;display:flex;justify-content:space-between;align-items:baseline}
+.rec .n{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:24px}
+.pick3{display:grid;grid-template-columns:minmax(0,1fr) 72px minmax(0,1fr);gap:6px;margin-top:8px}
+.opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.opts .btn{text-align:left;font-weight:500}
+.note{margin:0;font-size:14px;color:var(--soft)}
+.save{font-size:13px;color:var(--muted);min-height:1.2em}
+.hidden{display:none!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div><p class="eyebrow">Matchday briefing</p><h1 class="disp">World Football Today</h1></div>
+<p class="sub" id="updated">Loading…</p>
+</header>
+
+<section class="hero" aria-label="Headline" id="hero"></section>
+
+<section class="upset hidden" id="upsets" aria-labelledby="h-up">
+<div style="display:flex;align-items:center;gap:12px"><span class="stamp">UPSET</span><h2 id="h-up" class="disp" style="margin:0;font-size:26px;color:#7A1610">Upset alert</h2></div>
+<div id="upsetList"></div>
+</section>
+
+<div class="grid" style="align-items:stretch">
+<section class="stat" aria-labelledby="h-stat">
+<h2 id="h-stat" class="eyebrow" style="color:#CDEEDB">Stat of the day</h2>
+<p class="big" id="statBig"></p>
+<p style="margin:0;font-weight:600;font-size:18px" id="statLabel"></p>
+<p style="margin:0;font-size:14px;color:#E2F4E9" id="statCtx"></p>
+</section>
+<section class="card" aria-labelledby="h-tr">
+<div class="head"><h2 id="h-tr" class="disp">Daily trivia</h2><span class="pill amber" id="streak" style="font-size:13px;text-transform:none;letter-spacing:0">Streak: 0</span></div>
+<p style="margin:0;font-weight:600" id="trQ"></p>
+<div class="opts" id="trOpts"></div>
+<p class="note hidden" id="trA"></p>
+</section>
+</div>
+
+<section class="card watch" aria-labelledby="h-w">
+<div class="head"><h2 id="h-w" class="disp">Watchlist</h2><span class="sub">Stories followed here even when they're not headline news</span></div>
+<ul class="chips" id="chips" aria-label="Watchlist topics"></ul>
+<div class="feed" id="feed"></div>
+<p class="note" id="feedEmpty">No watchlist stories today.</p>
+<p class="sub" id="feedUpd" style="margin:0"></p>
+</section>
+
+
+<div class="grid">
+<section class="card" aria-labelledby="h-p">
+<div class="head"><h2 id="h-p" class="disp">Big games</h2><span class="sub" id="pLabel"></span></div>
+<div id="games"></div>
+</section>
+
+<section class="card" aria-labelledby="h-r">
+<div class="head"><h2 id="h-r" class="disp">Latest results</h2><span class="sub" id="rLabel"></span></div>
+<div id="results"></div>
+</section>
+
+<section class="card" aria-labelledby="h-m">
+<div class="head"><h2 id="h-m" class="disp">Rumor mill</h2><span class="sub">Transfer talk</span></div>
+<div id="rumors"></div>
+</section>
+
+<section class="card" aria-labelledby="h-n">
+<h2 id="h-n" class="disp">This week</h2>
+<div id="news"></div>
+</section>
+
+<section class="card" aria-labelledby="h-t">
+<div class="head"><h2 id="h-t" class="disp">Premier League top 6</h2><span class="sub">Pts</span></div>
+<div id="table"></div>
+<p class="sub" style="margin:0" id="tNote"></p>
+</section>
+</div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
