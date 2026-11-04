@@ -29,7 +29,8 @@
       el('div', { style: 'display:flex;flex-direction:column;gap:6px;flex:1 1 480px' },
         el('p', { class: 'eyebrow', style: 'color:#8FD9AE' }, h.kicker || 'Top story'),
         el('h2', null, h.title || ''),
-        h.sub ? el('p', null, h.sub) : null),
+        h.sub ? el('p', null, h.sub) : null,
+        safeUrl(h.url) ? el('a', { href: h.url, target: '_blank', rel: 'noopener', style: 'color:#8FD9AE;font-size:13px' }, 'Read at ' + (h.source || 'source') + ' ↗') : null),
       h.score ? el('div', { style: 'display:flex;gap:12px;align-items:center;font-family:Barlow Condensed,sans-serif;font-weight:700' },
         el('span', { style: 'font-size:28px' }, h.home || ''), el('span', { class: 'score' }, h.score), el('span', { style: 'font-size:28px' }, h.away || '')) : null);
 
@@ -77,17 +78,38 @@
       el('span', { style: 'text-align:right;font-weight:500' }, r.home), el('span', { class: 'sc' }, r.score), el('span', { style: 'font-weight:500' }, r.away))));
     $('rumors').replaceChildren(...(D.rumors || []).map((m) => el('div', { class: 'row', style: 'display:flex;flex-direction:column;gap:4px' },
       el('div', { style: 'display:flex;gap:8px;align-items:center;flex-wrap:wrap' }, el('span', { class: 'pill amber' }, m.tag), el('strong', null, m.title)),
-      el('span', { class: 'note' }, m.body), el('span', { class: 'sub', style: 'font-size:12px' }, 'Source: ' + (m.src || '')))));
+      el('span', { class: 'note' }, m.body),
+      safeUrl(m.url) ? srcLink(m.url, m.src) : el('span', { class: 'sub', style: 'font-size:12px' }, 'Source: ' + (m.src || '')))));
     $('news').replaceChildren(...(D.news || []).map((n) => el('div', { class: 'row', style: 'display:flex;gap:12px' },
       el('span', { 'aria-hidden': 'true', style: 'flex:0 0 auto;width:8px;height:8px;margin-top:7px;border-radius:50%;background:var(--green)' }),
-      el('div', { style: 'display:flex;flex-direction:column;gap:2px' }, el('strong', null, n.title), el('span', { class: 'note' }, n.body)))));
-    const T = D.table || {};
+      el('div', { style: 'display:flex;flex-direction:column;gap:2px' }, el('strong', null, n.title), el('span', { class: 'note' }, n.body), srcLink(n.url, n.source)))));
+    renderTable();
+    renderTrivia();
+  }
+
+  const safeUrl = (u) => (typeof u === 'string' && /^https:\/\//.test(u) ? u : '');
+  const srcLink = (url, label) => {
+    const u = safeUrl(url);
+    return u ? el('a', { class: 'srclink', href: u, target: '_blank', rel: 'noopener' }, 'Read at ' + (label || 'source') + ' ↗') : null;
+  };
+
+  let league = 'epl';
+  function renderTable() {
+    const all = D.tables || { epl: D.table || {} };
+    if (!all[league]) league = 'epl';
+    const T = all[league] || {};
+    ['epl', 'laliga'].forEach((k) => {
+      const b = $('tab-' + k);
+      b.classList.toggle('hidden', !all[k]);
+      b.setAttribute('aria-selected', String(k === league));
+    });
     $('table').replaceChildren(...(T.rows || []).map((t) => el('div', { class: 'row tbl' },
       el('span', { class: 'disp', style: 'font-size:20px;color:var(--muted)' }, t.rank), el('span', { style: 'font-weight:500' }, t.team),
       el('span', { class: 'sub' }, t.rec), el('span', { class: 'disp', style: 'text-align:right;font-size:22px' }, t.pts))));
+    $('table').scrollTop = 0;
     $('tNote').textContent = T.note || '';
-    renderTrivia();
   }
+  ['epl', 'laliga'].forEach((k) => $('tab-' + k).addEventListener('click', () => { league = k; renderTable(); }));
 
   function renderTrivia() {
     const t = D.trivia;

@@ -59,6 +59,13 @@ input[type=text]{height:44px;padding:0 14px;border:1px solid #B8C0BA;border-radi
 .opts .btn{text-align:left;font-weight:500}
 .note{margin:0;font-size:14px;color:var(--soft)}
 .save{font-size:13px;color:var(--muted);min-height:1.2em}
+.tabs{display:flex;gap:6px;background:var(--bg);padding:4px;border-radius:10px}
+.tabs button{flex:1;min-height:40px;border:0;border-radius:8px;background:transparent;font:inherit;font-weight:600;color:var(--muted);cursor:pointer}
+.tabs button[aria-selected="true"]{background:#fff;color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.tabs button:focus-visible{outline:3px solid #8FD9AE}
+.tblbox{max-height:318px;overflow-y:auto;border-bottom:1px solid var(--line);scrollbar-width:thin}
+.tblbox .row:first-child{border-top:0}
+.srclink{font-size:12px;font-weight:600}
 .hidden{display:none!important}
 </style>
 </head>
@@ -122,8 +129,12 @@ input[type=text]{height:44px;padding:0 14px;border:1px solid #B8C0BA;border-radi
 </section>
 
 <section class="card" aria-labelledby="h-t">
-<div class="head"><h2 id="h-t" class="disp">Premier League top 6</h2><span class="sub">Pts</span></div>
-<div id="table"></div>
+<div class="head"><h2 id="h-t" class="disp">League table</h2><span class="sub">Pts</span></div>
+<div class="tabs" role="tablist" aria-label="League">
+<button type="button" role="tab" id="tab-epl" aria-selected="true" aria-controls="table">Premier League</button>
+<button type="button" role="tab" id="tab-laliga" aria-selected="false" aria-controls="table">La Liga</button>
+</div>
+<div class="tblbox" id="table" role="tabpanel" tabindex="0" aria-label="League standings"></div>
 <p class="sub" style="margin:0" id="tNote"></p>
 </section>
 </div>
