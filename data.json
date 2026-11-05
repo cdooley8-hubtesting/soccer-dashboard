@@ -29,14 +29,14 @@
     "updatedAt": "2026-11-04T12:23:18Z"
   },
   "headline": {
-    "away": "PSG",
-    "home": "Villarreal",
     "kicker": "Top story · Champions League",
-    "score": "0–6",
-    "source": "ESPN",
-    "sub": "Elsewhere, Man United came back from 2–0 down to beat Roma 3–2 at Old Trafford.",
-    "title": "PSG 4–0 up inside 17 minutes, a new Champions League record, on the way to a 6–0 rout at Villarreal",
-    "url": "https://www.espn.com/soccer/story/_/id/50371706/psg-villarreal-champions-league-record-goals"
+    "title": "Como run riot in France, winning 9–1 at Lens on a historic Champions League night",
+    "sub": "Elsewhere, Fenerbahçe came from behind to beat Liverpool 3–2, and Valverde's stoppage-time strike won it 3–2 for Real Madrid in Athens.",
+    "home": "Lens",
+    "score": "1–9",
+    "away": "Como",
+    "url": "https://www.espn.com/soccer/story/_/id/50329182/real-madrid-liverpool-manchester-city-arsenal",
+    "source": "ESPN"
   },
   "news": [
     {
@@ -65,54 +65,54 @@
     }
   ],
   "results": {
+    "label": "Wed, Nov 4 · Yesterday's results",
     "games": [
       {
-        "away": "PSG",
-        "home": "Villarreal",
-        "score": "0–6"
+        "home": "Lens",
+        "score": "1–9",
+        "away": "Como"
       },
       {
-        "away": "Roma",
-        "home": "Man United",
-        "score": "3–2"
+        "home": "Fenerbahçe",
+        "score": "3–2",
+        "away": "Liverpool"
       },
       {
-        "away": "Aston Villa",
-        "home": "Barcelona",
-        "score": "3–0"
+        "home": "AEK Athens",
+        "score": "2–3",
+        "away": "Real Madrid"
       },
       {
-        "away": "Bayern",
-        "home": "Atlético Madrid",
-        "score": "0–2"
+        "home": "RB Leipzig",
+        "score": "2–3",
+        "away": "Man City"
       },
       {
-        "away": "Inter",
-        "home": "Feyenoord",
-        "score": "0–3"
+        "home": "Slavia Prague",
+        "score": "1–2",
+        "away": "Arsenal"
       },
       {
-        "away": "Stuttgart",
-        "home": "Galatasaray",
-        "score": "2–0"
+        "home": "Porto",
+        "score": "4–1",
+        "away": "Napoli"
       },
       {
-        "away": "Sporting CP",
-        "home": "Shakhtar",
-        "score": "0–1"
+        "home": "Dortmund",
+        "score": "2–1",
+        "away": "Real Betis"
       },
       {
-        "away": "Slovan Bratislava",
-        "home": "LASK",
-        "score": "4–0"
+        "home": "PSV",
+        "score": "1–2",
+        "away": "Club Brugge"
       },
       {
-        "away": "Lille",
-        "home": "Bodø/Glimt",
-        "score": "0–0"
+        "home": "Viking",
+        "score": "4–1",
+        "away": "Sabah"
       }
-    ],
-    "label": "Tue, Nov 3 · Yesterday's results"
+    ]
   },
   "rumors": [
     {
@@ -152,9 +152,9 @@
     }
   ],
   "stat": {
-    "big": "17′",
-    "context": "Paris led Villarreal 4–0 after 17 minutes, the quickest any team has scored four in Champions League history, and won 6–0.",
-    "label": "PSG's record-fast four goals"
+    "big": "9",
+    "label": "Goals Como scored away at Lens",
+    "context": "Como beat Lens 9–1 in France on Wednesday, the standout scoreline of Champions League Matchday 4."
   },
   "table": {
     "note": "Record shown W-D-L. Man United sit 17th on 7 points.",
@@ -197,338 +197,302 @@
       }
     ]
   },
+  "tables": {
+    "epl": {
+      "name": "Premier League",
+      "note": "Record shown W-D-L. Man United sit 17th on 7 points.",
+      "rows": [
+        {
+          "pts": 24,
+          "rank": 1,
+          "rec": "8-0-1",
+          "team": "Arsenal"
+        },
+        {
+          "pts": 21,
+          "rank": 2,
+          "rec": "7-0-2",
+          "team": "Man City"
+        },
+        {
+          "pts": 19,
+          "rank": 3,
+          "rec": "6-1-2",
+          "team": "Brighton"
+        },
+        {
+          "pts": 16,
+          "rank": 4,
+          "rec": "5-1-3",
+          "team": "Chelsea"
+        },
+        {
+          "pts": 15,
+          "rank": 5,
+          "rec": "4-3-2",
+          "team": "Liverpool"
+        },
+        {
+          "pts": 14,
+          "rank": 6,
+          "rec": "3-5-1",
+          "team": "Brentford"
+        },
+        {
+          "pts": 13,
+          "rank": 7,
+          "rec": "3-4-2",
+          "team": "Everton"
+        },
+        {
+          "pts": 12,
+          "rank": 8,
+          "rec": "3-3-3",
+          "team": "Bournemouth"
+        },
+        {
+          "pts": 12,
+          "rank": 9,
+          "rec": "3-3-3",
+          "team": "Tottenham"
+        },
+        {
+          "pts": 12,
+          "rank": 10,
+          "rec": "3-3-3",
+          "team": "Aston Villa"
+        },
+        {
+          "pts": 11,
+          "rank": 11,
+          "rec": "2-5-2",
+          "team": "Hull City"
+        },
+        {
+          "pts": 11,
+          "rank": 12,
+          "rec": "2-5-2",
+          "team": "Leeds United"
+        },
+        {
+          "pts": 11,
+          "rank": 13,
+          "rec": "3-2-4",
+          "team": "Newcastle"
+        },
+        {
+          "pts": 11,
+          "rank": 14,
+          "rec": "3-2-4",
+          "team": "Ipswich Town"
+        },
+        {
+          "pts": 9,
+          "rank": 15,
+          "rec": "2-3-4",
+          "team": "Fulham"
+        },
+        {
+          "pts": 9,
+          "rank": 16,
+          "rec": "3-0-6",
+          "team": "Coventry City"
+        },
+        {
+          "pts": 7,
+          "rank": 17,
+          "rec": "1-4-4",
+          "team": "Man United"
+        },
+        {
+          "pts": 7,
+          "rank": 18,
+          "rec": "2-1-6",
+          "team": "Crystal Palace"
+        },
+        {
+          "pts": 6,
+          "rank": 19,
+          "rec": "1-3-5",
+          "team": "Nottingham Forest"
+        },
+        {
+          "pts": 5,
+          "rank": 20,
+          "rec": "1-2-6",
+          "team": "Sunderland"
+        }
+      ]
+    },
+    "laliga": {
+      "name": "La Liga",
+      "note": "Record shown W-D-L. Barcelona lead Atlético by two points.",
+      "rows": [
+        {
+          "pts": 30,
+          "rank": 1,
+          "rec": "10-0-1",
+          "team": "Barcelona"
+        },
+        {
+          "pts": 28,
+          "rank": 2,
+          "rec": "9-1-1",
+          "team": "Atlético Madrid"
+        },
+        {
+          "pts": 27,
+          "rank": 3,
+          "rec": "9-0-2",
+          "team": "Real Madrid"
+        },
+        {
+          "pts": 23,
+          "rank": 4,
+          "rec": "7-2-2",
+          "team": "Real Betis"
+        },
+        {
+          "pts": 19,
+          "rank": 5,
+          "rec": "6-1-4",
+          "team": "Real Sociedad"
+        },
+        {
+          "pts": 17,
+          "rank": 6,
+          "rec": "5-2-4",
+          "team": "Sevilla"
+        },
+        {
+          "pts": 15,
+          "rank": 7,
+          "rec": "4-3-3",
+          "team": "Athletic Club"
+        },
+        {
+          "pts": 14,
+          "rank": 8,
+          "rec": "3-5-3",
+          "team": "Deportivo La Coruña"
+        },
+        {
+          "pts": 12,
+          "rank": 9,
+          "rec": "3-3-5",
+          "team": "Villarreal"
+        },
+        {
+          "pts": 12,
+          "rank": 10,
+          "rec": "2-6-3",
+          "team": "Celta Vigo"
+        },
+        {
+          "pts": 12,
+          "rank": 11,
+          "rec": "3-3-5",
+          "team": "Alavés"
+        },
+        {
+          "pts": 12,
+          "rank": 12,
+          "rec": "3-3-4",
+          "team": "Rayo Vallecano"
+        },
+        {
+          "pts": 12,
+          "rank": 13,
+          "rec": "3-3-5",
+          "team": "Getafe"
+        },
+        {
+          "pts": 11,
+          "rank": 14,
+          "rec": "3-2-6",
+          "team": "Espanyol"
+        },
+        {
+          "pts": 11,
+          "rank": 15,
+          "rec": "3-2-6",
+          "team": "Osasuna"
+        },
+        {
+          "pts": 11,
+          "rank": 16,
+          "rec": "3-2-6",
+          "team": "Racing Santander"
+        },
+        {
+          "pts": 10,
+          "rank": 17,
+          "rec": "2-4-5",
+          "team": "Elche"
+        },
+        {
+          "pts": 10,
+          "rank": 18,
+          "rec": "2-4-5",
+          "team": "Levante"
+        },
+        {
+          "pts": 9,
+          "rank": 19,
+          "rec": "2-3-6",
+          "team": "Valencia"
+        },
+        {
+          "pts": 5,
+          "rank": 20,
+          "rec": "0-5-6",
+          "team": "Málaga"
+        }
+      ]
+    }
+  },
   "trivia": {
-    "answer": 1,
-    "date": "2026-11-04",
-    "explain": "Real Madrid hold the record, starting with the first five editions in a row (1956–1960).",
+    "date": "2026-11-05",
+    "question": "Juventus visit AZ Alkmaar in the Europa League tonight. Which city are Juventus based in?",
     "options": [
-      "AC Milan",
-      "Real Madrid",
-      "Bayern Munich",
-      "Liverpool"
+      "Milan",
+      "Rome",
+      "Genoa",
+      "Turin"
     ],
-    "question": "Real Madrid visit AEK Athens on Wednesday. Which club has won the European Cup / Champions League more times than any other?"
+    "answer": 3,
+    "explain": "Juventus are based in Turin, in Italy's Piedmont region."
   },
   "upcoming": {
+    "label": "Thu, Nov 5 · Europa League",
     "games": [
       {
-        "away": "Liverpool",
-        "home": "Fenerbahçe",
-        "id": "74165998",
-        "kickoff": "2026-11-04T17:45:00Z",
-        "pA": 64.7,
-        "pD": 18.9,
-        "pH": 16.4
+        "id": "benfica-lech-poznan-20261105",
+        "home": "Benfica",
+        "away": "Lech Poznań",
+        "kickoff": "2026-11-05T20:00:00Z",
+        "pH": 84,
+        "pD": 11,
+        "pA": 5
       },
       {
-        "away": "Real Madrid",
-        "home": "AEK Athens",
-        "id": "74165996",
-        "kickoff": "2026-11-04T17:45:00Z",
-        "pA": 79.1,
-        "pD": 12.5,
-        "pH": 8.4
-      },
-      {
-        "away": "Man City",
-        "home": "RB Leipzig",
-        "id": "74166006",
-        "kickoff": "2026-11-04T20:00:00Z",
-        "pA": 62.1,
-        "pD": 19.1,
-        "pH": 18.8
-      },
-      {
-        "away": "Arsenal",
-        "home": "Slavia Prague",
-        "id": "74166010",
-        "kickoff": "2026-11-04T20:00:00Z",
-        "pA": 77.9,
-        "pD": 14.1,
-        "pH": 8
-      },
-      {
-        "away": "Real Betis",
-        "home": "Dortmund",
-        "id": "74166000",
-        "kickoff": "2026-11-04T20:00:00Z",
-        "pA": 22.4,
-        "pD": 22.6,
-        "pH": 55
-      },
-      {
-        "away": "Napoli",
-        "home": "Porto",
-        "id": "74166002",
-        "kickoff": "2026-11-04T20:00:00Z",
-        "pA": 25.9,
-        "pD": 25.5,
-        "pH": 48.6
+        "id": "az-alkmaar-juventus-20261105",
+        "home": "AZ Alkmaar",
+        "away": "Juventus",
+        "kickoff": "2026-11-05T20:00:00Z",
+        "pH": 27,
+        "pD": 25,
+        "pA": 48
       }
-    ],
-    "label": "Wed, Nov 4 · UCL Matchday 4"
+    ]
   },
-  "updated": "2026-11-04T23:00:33Z",
+  "updated": "2026-11-05T12:19:38Z",
   "upsets": [
     {
       "detail": "Liverpool were 65% favorites",
       "text": "Fenerbahçe 3–2 Liverpool"
     }
   ],
-  "tables": {
-    "epl": {
-      "name": "Premier League",
-      "rows": [
-        {
-          "rank": 1,
-          "team": "Arsenal",
-          "rec": "8-0-1",
-          "pts": 24
-        },
-        {
-          "rank": 2,
-          "team": "Man City",
-          "rec": "7-0-2",
-          "pts": 21
-        },
-        {
-          "rank": 3,
-          "team": "Brighton",
-          "rec": "6-1-2",
-          "pts": 19
-        },
-        {
-          "rank": 4,
-          "team": "Chelsea",
-          "rec": "5-1-3",
-          "pts": 16
-        },
-        {
-          "rank": 5,
-          "team": "Liverpool",
-          "rec": "4-3-2",
-          "pts": 15
-        },
-        {
-          "rank": 6,
-          "team": "Brentford",
-          "rec": "3-5-1",
-          "pts": 14
-        },
-        {
-          "rank": 7,
-          "team": "Everton",
-          "rec": "3-4-2",
-          "pts": 13
-        },
-        {
-          "rank": 8,
-          "team": "Bournemouth",
-          "rec": "3-3-3",
-          "pts": 12
-        },
-        {
-          "rank": 9,
-          "team": "Tottenham",
-          "rec": "3-3-3",
-          "pts": 12
-        },
-        {
-          "rank": 10,
-          "team": "Aston Villa",
-          "rec": "3-3-3",
-          "pts": 12
-        },
-        {
-          "rank": 11,
-          "team": "Hull City",
-          "rec": "2-5-2",
-          "pts": 11
-        },
-        {
-          "rank": 12,
-          "team": "Leeds United",
-          "rec": "2-5-2",
-          "pts": 11
-        },
-        {
-          "rank": 13,
-          "team": "Newcastle",
-          "rec": "3-2-4",
-          "pts": 11
-        },
-        {
-          "rank": 14,
-          "team": "Ipswich Town",
-          "rec": "3-2-4",
-          "pts": 11
-        },
-        {
-          "rank": 15,
-          "team": "Fulham",
-          "rec": "2-3-4",
-          "pts": 9
-        },
-        {
-          "rank": 16,
-          "team": "Coventry City",
-          "rec": "3-0-6",
-          "pts": 9
-        },
-        {
-          "rank": 17,
-          "team": "Man United",
-          "rec": "1-4-4",
-          "pts": 7
-        },
-        {
-          "rank": 18,
-          "team": "Crystal Palace",
-          "rec": "2-1-6",
-          "pts": 7
-        },
-        {
-          "rank": 19,
-          "team": "Nottingham Forest",
-          "rec": "1-3-5",
-          "pts": 6
-        },
-        {
-          "rank": 20,
-          "team": "Sunderland",
-          "rec": "1-2-6",
-          "pts": 5
-        }
-      ],
-      "note": "Record shown W-D-L. Man United sit 17th on 7 points."
-    },
-    "laliga": {
-      "name": "La Liga",
-      "rows": [
-        {
-          "rank": 1,
-          "team": "Barcelona",
-          "rec": "10-0-1",
-          "pts": 30
-        },
-        {
-          "rank": 2,
-          "team": "Atlético Madrid",
-          "rec": "9-1-1",
-          "pts": 28
-        },
-        {
-          "rank": 3,
-          "team": "Real Madrid",
-          "rec": "9-0-2",
-          "pts": 27
-        },
-        {
-          "rank": 4,
-          "team": "Real Betis",
-          "rec": "7-2-2",
-          "pts": 23
-        },
-        {
-          "rank": 5,
-          "team": "Real Sociedad",
-          "rec": "6-1-4",
-          "pts": 19
-        },
-        {
-          "rank": 6,
-          "team": "Sevilla",
-          "rec": "5-2-4",
-          "pts": 17
-        },
-        {
-          "rank": 7,
-          "team": "Athletic Club",
-          "rec": "4-3-3",
-          "pts": 15
-        },
-        {
-          "rank": 8,
-          "team": "Deportivo La Coruña",
-          "rec": "3-5-3",
-          "pts": 14
-        },
-        {
-          "rank": 9,
-          "team": "Villarreal",
-          "rec": "3-3-5",
-          "pts": 12
-        },
-        {
-          "rank": 10,
-          "team": "Celta Vigo",
-          "rec": "2-6-3",
-          "pts": 12
-        },
-        {
-          "rank": 11,
-          "team": "Alavés",
-          "rec": "3-3-5",
-          "pts": 12
-        },
-        {
-          "rank": 12,
-          "team": "Rayo Vallecano",
-          "rec": "3-3-4",
-          "pts": 12
-        },
-        {
-          "rank": 13,
-          "team": "Getafe",
-          "rec": "3-3-5",
-          "pts": 12
-        },
-        {
-          "rank": 14,
-          "team": "Espanyol",
-          "rec": "3-2-6",
-          "pts": 11
-        },
-        {
-          "rank": 15,
-          "team": "Osasuna",
-          "rec": "3-2-6",
-          "pts": 11
-        },
-        {
-          "rank": 16,
-          "team": "Racing Santander",
-          "rec": "3-2-6",
-          "pts": 11
-        },
-        {
-          "rank": 17,
-          "team": "Elche",
-          "rec": "2-4-5",
-          "pts": 10
-        },
-        {
-          "rank": 18,
-          "team": "Levante",
-          "rec": "2-4-5",
-          "pts": 10
-        },
-        {
-          "rank": 19,
-          "team": "Valencia",
-          "rec": "2-3-6",
-          "pts": 9
-        },
-        {
-          "rank": 20,
-          "team": "Málaga",
-          "rec": "0-5-6",
-          "pts": 5
-        }
-      ],
-      "note": "Record shown W-D-L. Barcelona lead Atlético by two points."
-    }
-  },
   "watchlist": [
     "Lionel Messi",
     "Cristiano Ronaldo (the embarrassing stuff)",
