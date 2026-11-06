@@ -65,54 +65,59 @@
     }
   ],
   "results": {
-    "label": "Wed, Nov 4 · Yesterday's results",
     "games": [
       {
-        "home": "Lens",
-        "score": "1–9",
-        "away": "Como"
+        "away": "Lech Poznań",
+        "home": "Benfica",
+        "score": "3–1"
       },
       {
-        "home": "Fenerbahçe",
-        "score": "3–2",
-        "away": "Liverpool"
+        "away": "Juventus",
+        "home": "AZ Alkmaar",
+        "score": "1–2"
       },
       {
-        "home": "AEK Athens",
-        "score": "2–3",
-        "away": "Real Madrid"
+        "away": "Ferencváros",
+        "home": "Milan",
+        "score": "0–2"
       },
       {
-        "home": "RB Leipzig",
-        "score": "2–3",
-        "away": "Man City"
+        "away": "Bournemouth",
+        "home": "Sparta Praha",
+        "score": "1–3"
       },
       {
-        "home": "Slavia Prague",
-        "score": "1–2",
-        "away": "Arsenal"
+        "away": "Marseille",
+        "home": "Leverkusen",
+        "score": "0–1"
       },
       {
-        "home": "Porto",
-        "score": "4–1",
-        "away": "Napoli"
+        "away": "Beşiktaş",
+        "home": "Celtic",
+        "score": "3–2"
       },
       {
-        "home": "Dortmund",
-        "score": "2–1",
-        "away": "Real Betis"
+        "away": "Hoffenheim",
+        "home": "Crystal Palace",
+        "score": "1–1"
       },
       {
-        "home": "PSV",
-        "score": "1–2",
-        "away": "Club Brugge"
+        "away": "Lyon",
+        "home": "Real Sociedad",
+        "score": "1–1"
       },
       {
-        "home": "Viking",
-        "score": "4–1",
-        "away": "Sabah"
+        "away": "GNK Dinamo",
+        "home": "Sunderland",
+        "score": "0–2"
+      },
+      {
+        "away": "Salzburg",
+        "home": "Anderlecht",
+        "score": "2–0"
       }
-    ]
+    ],
+    "label": "Thu, Nov 5 · Tonight's results"
   },
   "rumors": [
     {
@@ -486,13 +491,8 @@
       }
     ]
   },
-  "updated": "2026-11-05T12:19:38Z",
-  "upsets": [
-    {
-      "detail": "Liverpool were 65% favorites",
-      "text": "Fenerbahçe 3–2 Liverpool"
-    }
-  ],
+  "updated": "2026-11-06T01:12:00Z",
+  "upsets": [],
   "watchlist": [
     "Lionel Messi",
     "Cristiano Ronaldo (the embarrassing stuff)",
