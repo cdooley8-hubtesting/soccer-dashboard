@@ -18,6 +18,14 @@
         "url": "https://sports.yahoo.com/articles/postecoglou-leaves-ronaldo-home-al-165827640.html"
       },
       {
+        "date": "2026-11-04",
+        "source": "SixOneFive Soccer",
+        "summary": "Goalkeeper Schwake and left back Baker-Whiting made Pochettino's 25-man squad for the Nations League quarterfinal against Haiti, Nov. 14 in Miami and Nov. 17 in Cincinnati.",
+        "title": "Schwake and Baker-Whiting called up to the USMNT",
+        "topic": "Nashville SC",
+        "url": "https://www.sixonefivesoccer.com/usmnt-november-2026-roster/"
+      },
+      {
         "date": "2026-11-01",
         "source": "FOX 17",
         "summary": "Two Red Bulls own goals and Sam Surridge's late 19th of the season made it 3–2. Nashville reach 74 points with one game left and went unbeaten at home (15-0-2).",
@@ -26,19 +34,37 @@
         "url": "https://fox17.com/sports/content/nashville-ends-red-bulls-playoff-hopes-with-3-2-victory"
       }
     ],
-    "updatedAt": "2026-11-04T12:23:18Z"
+    "updatedAt": "2026-11-05T12:21:27Z"
   },
   "headline": {
-    "kicker": "Top story · Champions League",
-    "title": "Como run riot in France, winning 9–1 at Lens on a historic Champions League night",
-    "sub": "Elsewhere, Fenerbahçe came from behind to beat Liverpool 3–2, and Valverde's stoppage-time strike won it 3–2 for Real Madrid in Athens.",
-    "home": "Lens",
-    "score": "1–9",
-    "away": "Como",
-    "url": "https://www.espn.com/soccer/story/_/id/50329182/real-madrid-liverpool-manchester-city-arsenal",
+    "kicker": "Top story · Europa League",
+    "title": "Ferencváros stun Milan 2–0 at San Siro, with Lenny Joseph scoring both goals",
+    "sub": "Also Thursday: Cristiano Ronaldo announced his retirement from Portugal duty, saying he will keep playing for Al Nassr.",
+    "home": "Milan",
+    "score": "0–2",
+    "away": "Ferencváros",
+    "url": "https://www.espn.com/soccer/report/_/gameId/401915534",
     "source": "ESPN"
   },
   "news": [
+    {
+      "title": "Ronaldo retires from Portugal",
+      "body": "Cristiano Ronaldo has ended his international career; observers say it frees him to focus on Al Nassr and his chase for 1,000 goals.",
+      "source": "The National",
+      "url": "https://thenationalnews.com/sport/football/2026/11/06/cristiano-ronaldo-retiring-from-international-football-is-good-news-for-al-nassr"
+    },
+    {
+      "title": "Ferencváros shock Milan",
+      "body": "A Lenny Joseph double gave Ferencváros a 2–0 win at San Siro, leaving Milan outside the Europa League's top 24.",
+      "source": "VAVEL",
+      "url": "https://www.vavel.com/en-us/soccer/2026/11/05/1278088-milan-vs-ferencvaros-live-score-uefa-europa-league.html"
+    },
+    {
+      "title": "Nashville win the Supporters' Shield",
+      "body": "Nashville SC clinched the league's best regular-season record for the first time, securing home advantage through the East playoffs.",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/nashville-sc-win-2026-supporters-193700850.html"
+    },
     {
       "body": "Muriqi's 89th-minute winner ended Liverpool's perfect UCL start after they led twice; in Athens, Valverde struck in stoppage time as Real Madrid beat AEK 3–2.",
       "source": "AP (via WHIO)",
@@ -50,21 +76,10 @@
       "source": "UEFA.com",
       "title": "Man United comeback",
       "url": "https://www.uefa.com/uefachampionsleague/news/02ab-21fc4afdbe57-11bbecf54b40-1000--champions-league-highlights-and-round-up-paris-remain-per/"
-    },
-    {
-      "body": "Lennart Karl forced a turnover and scored early in the second half, Laimer added a second from Kane's pass, and Bayern won 2–0 at Atlético after two straight draws.",
-      "source": "UEFA.com",
-      "title": "Teenager Karl leads Bayern",
-      "url": "https://www.uefa.com/uefachampionsleague/news/02ab-21fc4afdbe57-11bbecf54b40-1000--champions-league-highlights-and-round-up-paris-remain-per/"
-    },
-    {
-      "body": "A stoppage-time Sam Surridge winner beat the Red Bulls 3–2, taking the Supporters' Shield winners to 74 points (level with Miami's 2024 record) with a game to spare.",
-      "source": "FOX 17",
-      "title": "Nashville tie the MLS points record",
-      "url": "https://fox17.com/sports/content/nashville-ends-red-bulls-playoff-hopes-with-3-2-victory"
     }
   ],
   "results": {
+    "label": "Thu, Nov 5 · Yesterday's results",
     "games": [
       {
         "away": "Lech Poznań",
@@ -116,10 +131,23 @@
         "home": "Anderlecht",
         "score": "2–0"
       }
-    ],
-    "label": "Thu, Nov 5 · Tonight's results"
+    ]
   },
   "rumors": [
+    {
+      "tag": "Man United",
+      "title": "Aït-Nouri wants out of City",
+      "body": "Rayan Aït-Nouri is reportedly looking to leave Manchester City in January, and United are named as a possible destination.",
+      "src": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50386327/transfer-rumors-news-premier-league-clubs-line-como-defender"
+    },
+    {
+      "tag": "Arsenal",
+      "title": "Arsenal confident on Nusa",
+      "body": "Arsenal are said to be confident of beating Spurs to RB Leipzig winger Antonio Nusa, valued at around £45m.",
+      "src": "Sports Mole",
+      "url": "https://sportsmole.co.uk/football/arsenal/transfer-talk/news/arsenal-confident-of-beating-spurs-to-gbp45m-winger-after-key-transfer-update_608564.html"
+    },
     {
       "body": "Two starts all season, both in the EFL Cup; seven big clubs including Real Madrid, Chelsea and Liverpool reportedly know he could go in January, possibly on loan.",
       "src": "Premier League News Now (via TEAMtalk)",
@@ -133,33 +161,12 @@
       "tag": "Target",
       "title": "Arsenal eye Kroupi in January",
       "url": "https://footballwhispers.com/blog/latest-transfer-news-today-inside-man-utds-dortmund-scouting-trip-as-arsenal-plot-january-striker-move/"
-    },
-    {
-      "body": "Scouts at Dortmund v Bayern watched Guirassy, Jobe Bellingham, Nmecha and left-back Svensson. Big fees make any deal tricky.",
-      "src": "Football Whispers",
-      "tag": "Scouting",
-      "title": "Man United scout Dortmund quartet",
-      "url": "https://footballwhispers.com/blog/latest-transfer-news-today-inside-man-utds-dortmund-scouting-trip-as-arsenal-plot-january-striker-move/"
-    },
-    {
-      "body": "Despite Barcelona and Man United interest, Chelsea are reportedly lining up a new deal with a big pay rise after his strong display against United.",
-      "src": "CaughtOffside",
-      "tag": "Stay",
-      "title": "Chelsea won't sell Estêvão",
-      "url": "https://www.caughtoffside.com/2026/11/03/chelsea-prepare-new-deal-for-rising-star-transfer-speculation/"
-    },
-    {
-      "body": "Early enquiries only: Serie A leaders Lazio don't plan to sell the midfielder mid-season, and bids may come in the summer.",
-      "src": "Premier League News Now (via Tuttomercatoweb)",
-      "tag": "Enquiry",
-      "title": "Brighton and Bournemouth ask about Kenneth Taylor",
-      "url": "https://premierleaguenewsnow.com/2026/11/03/kenneth-taylor-brighton-bournemouth-lazio-transfer/"
     }
   ],
   "stat": {
-    "big": "9",
-    "label": "Goals Como scored away at Lens",
-    "context": "Como beat Lens 9–1 in France on Wednesday, the standout scoreline of Champions League Matchday 4."
+    "big": "985",
+    "label": "Career goals for Cristiano Ronaldo",
+    "context": "His hat-trick against Al Kholood last week took him to 985; he retired from international football on Thursday."
   },
   "table": {
     "note": "Record shown W-D-L. Man United sit 17th on 7 points.",
@@ -457,41 +464,32 @@
     }
   },
   "trivia": {
-    "date": "2026-11-05",
-    "question": "Juventus visit AZ Alkmaar in the Europa League tonight. Which city are Juventus based in?",
+    "date": "2026-11-06",
+    "question": "Ferencváros won 2–0 at San Siro on Thursday. Which city are Ferencváros from?",
     "options": [
-      "Milan",
-      "Rome",
-      "Genoa",
-      "Turin"
+      "Prague",
+      "Vienna",
+      "Budapest",
+      "Belgrade"
     ],
-    "answer": 3,
-    "explain": "Juventus are based in Turin, in Italy's Piedmont region."
+    "answer": 2,
+    "explain": "Ferencváros are based in Budapest, Hungary."
   },
   "upcoming": {
-    "label": "Thu, Nov 5 · Europa League",
+    "label": "Fri, Nov 6 · Ligue 1",
     "games": [
       {
-        "id": "benfica-lech-poznan-20261105",
-        "home": "Benfica",
-        "away": "Lech Poznań",
-        "kickoff": "2026-11-05T20:00:00Z",
-        "pH": 84,
-        "pD": 11,
-        "pA": 5
-      },
-      {
-        "id": "az-alkmaar-juventus-20261105",
-        "home": "AZ Alkmaar",
-        "away": "Juventus",
-        "kickoff": "2026-11-05T20:00:00Z",
-        "pH": 27,
-        "pD": 25,
-        "pA": 48
+        "id": "toulouse-strasbourg-20261106",
+        "home": "Toulouse",
+        "away": "Strasbourg",
+        "kickoff": "2026-11-06T19:45:00Z",
+        "pH": 46,
+        "pD": 26,
+        "pA": 28
       }
     ]
   },
-  "updated": "2026-11-06T01:12:00Z",
+  "updated": "2026-11-06T12:22:55Z",
   "upsets": [],
   "watchlist": [
     "Lionel Messi",
